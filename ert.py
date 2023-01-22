@@ -70,6 +70,23 @@ class Person:
 tom = Person()
 tom.say_hello('hello')
 
+#значения
+a = 2
+print(a)
+
+a = 2 * 2
+print(a)
+
+b = a + 2
+print(b)
+
+c = b + a
+print(c)
+
+c = c + c + 3
+print(c)
+
+
 
 
 
