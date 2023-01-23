@@ -86,8 +86,55 @@ print(c)
 c = c + c + 3
 print(c)
 
+print(a + b + c)
 
 
+#запись типа переменной
+z = type(c)
+print(z)
+
+#присваивание
+a = 11
+a += 2
+print(a)
+#синтаксический сахар сокращение строк
+# 2 + a = a  тоже самое  a += 2
+
+
+
+#упровляющие символы в строчках
+# /n - перненос строки
+# / - табуляция
+# //n - экранирование
+
+
+print('abs' + 'dfg')
+# сложение строк - Конкатенация
+
+a = 1
+print(str(a) + '2')
+#преобразование в строку
+
+
+a = 1
+print(int(a) + 1)
+#преобразование в число
+
+print('sos' * 3)
+#дублирование
+
+print(len('hgfghfgjghghfjghfjhgfghjf'))
+#длина строки
+
+a = "простро_строка"
+print(a[::-1])
+# перевернуть слово
+
+a = 'privet'
+b = 'poka'
+print('skasal %s, skasal %s' %(a, b))
+print('skasal {}, skasal {}' .format(a, b))
+print(f'skasal {a}, skasal {b}' )
 
 
 
