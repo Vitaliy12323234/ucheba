@@ -1,2 +1,4 @@
-pi = 31.4159265
-print ("%.4e" % (pi))
+L = list(map(float, input().split()))
+L[0], L[-1] = L[-1], L[0]
+L.append(sum(L))
+print(L)
