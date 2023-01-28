@@ -1,4 +1,8 @@
-L = list(map(float, input().split()))
-L[0], L[-1] = L[-1], L[0]
-L.append(sum(L))
-print(L)
+a = input("Введите первую строку: ")
+b = input("Введите вторую строку: ")
+
+a_set, b_set = set(a), set(b)# используем множественное присваивание
+
+a_and_b = a_set.union(b_set)
+
+print(a_and_b)
